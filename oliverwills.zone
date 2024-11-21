@@ -1,0 +1,21 @@
+$ORIGIN home.oliverwills.uk.;
+
+$TTL 2d;
+
+@               IN      SOA     ns.home.oliverwills.uk. oliverwills3.gmail.com. (
+                                0000000001      ;
+                                3600            ; 
+                                3600            ; 
+                                2419200         ; 
+                                3600            ; 
+)
+
+                IN      NS      ns.home.oliverwills.uk.
+
+ns              IN      A       192.168.1.31
+
+; -- add dns records below
+
+proxmox         IN      A       192.168.1.99
+
+; demo servers
